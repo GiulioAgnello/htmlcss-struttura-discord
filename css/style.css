@@ -36,7 +36,7 @@ ul {
 .debug * {
   min-width: 100px;
 
-  border: 1px dashed red;
+  -border: 1px dashed red;
 }
 
 header {
@@ -53,23 +53,28 @@ header {
 .page-header > .conteiner {
   display: flex;
   background-color: yellow;
+  border: 1px dashed rgb(0, 0, 0);
 }
 
 .logo {
   flex-grow: 1;
   padding: 10px;
+  border-right: 1px dashed rgb(0, 0, 0);
 }
 
 .link {
   flex-grow: 2;
   text-align: center;
   padding: 10px;
+  border-left: 1px dashed rgb(0, 0, 0);
+  border-right: 1px dashed rgb(0, 0, 0);
 }
 
 .log {
   flex-grow: 1;
   padding: 10px;
   text-align: end;
+  border-left: 1px dashed rgb(0, 0, 0);
 }
 
 .header-blu {
@@ -82,6 +87,7 @@ header {
   margin-left: 100px;
   margin-right: 100px;
   height: 300px;
+  border: 1px dashed rgb(0, 0, 0);
 }
 
 /* main */
@@ -93,18 +99,21 @@ main {
   background-color: blue;
   height: 300px;
   flex-grow: 2;
+  border: 1px dashed rgb(0, 0, 0);
 }
 
 .rose {
   background-color: rosybrown;
   height: 300px;
   flex-grow: 1;
+  border: 1px dashed rgb(0, 0, 0);
 }
 
 .green {
   background-color: green;
   height: 600px;
   flex-grow: 1;
+  border: 1px dashed rgb(0, 0, 0);
 }
 
 .main.white > .conteiner {
@@ -134,12 +143,14 @@ footer {
   background-color: rgb(24, 126, 129);
   height: 300px;
   flex-grow: 2;
+  border: 1px dashed rgb(0, 0, 0);
 }
 
 .footrose {
   background-color: rgb(206, 96, 96);
   height: 300px;
   flex-grow: 2;
+  border: 1px dashed rgb(0, 0, 0);
 }
 
 .conteiner > .footgreen {
@@ -148,4 +159,37 @@ footer {
 
 .column {
   flex-grow: 1;
+  border: 1px dashed rgb(255, 255, 255);
+}
+
+.main-foot {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.main.white > .conteiner {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+
+.footlogo {
+  background-color: rosybrown;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  text-align: center;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+.booton {
+  background-color: rosybrown;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  border: 1px dashed rgb(0, 0, 0);
 }
