@@ -81,7 +81,6 @@ header {
   background-color: pink;
   margin-left: 100px;
   margin-right: 100px;
-
   height: 300px;
 }
 
@@ -128,4 +127,25 @@ main {
 /* footer */
 
 footer {
+  background-color: rgb(56, 56, 56);
+}
+
+.footgreen {
+  background-color: rgb(24, 126, 129);
+  height: 300px;
+  flex-grow: 2;
+}
+
+.footrose {
+  background-color: rgb(206, 96, 96);
+  height: 300px;
+  flex-grow: 1;
+}
+
+.conteiner > .footgreen {
+  display: flex;
+}
+
+.column{
+    flex 1;
 }
