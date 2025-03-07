@@ -102,9 +102,29 @@ main {
   flex-grow: 1;
 }
 
+.green {
+  background-color: green;
+  height: 600px;
+  flex-grow: 1;
+}
+
 .main.white > .conteiner {
   display: flex;
 }
+
+.main.gray > .conteiner {
+  display: flex;
+}
+.main.white {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main.gray {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: gray;
+}
+
 /* footer */
 
 footer {
